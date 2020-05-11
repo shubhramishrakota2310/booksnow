@@ -27,8 +27,13 @@ header {
 .hero-bg a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
+    
+}
+
+.hero-bg img{
+    width: 12em;
+    height: auto;
+
 }
 
 section {
@@ -51,7 +56,7 @@ h1 span {
 h1 span::before {
     content: ' ';
     position: absolute;
-    width: 3em;
+    width: 4em;
     background: #F89104;
     height: .4em;
     bottom: 0;
@@ -60,7 +65,7 @@ h1 span::before {
 }
 
 .hero-bg p {
-    font-weight: bold;
+    font-weight: bolder;
     margin: 0 1em 3em;
 }
 
